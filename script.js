@@ -18,7 +18,11 @@ const library = [
 
 const numberOfBooksRead = () => {
   // write your code here
+	console,.log(this.author)
+	console.log(this.title)
+	console.log(this.readingStatus)
 };
+library.numberOfBooksRead();
 
 // Do not change the code below
 
