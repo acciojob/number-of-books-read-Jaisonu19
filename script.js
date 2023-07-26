@@ -18,11 +18,14 @@ const library = [
 
 const numberOfBooksRead = () => {
   // write your code here
-	console,.log(this.author)
-	console.log(this.title)
-	console.log(this.readingStatus)
+	let count = 0;
+  for (const book of library) {
+    if (book.readingStatus) {
+      count++;
+    }
+  }
+  return count;
 };
-library.numberOfBooksRead();
 
 // Do not change the code below
 
